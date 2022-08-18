@@ -1,2 +1,11 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= yield(:title) %> | Ecommerce</title>
+    </head>
+    <body>
+        <h1>Ecommerce</h1>
+        <p>This is a ecommerce website</p>
+    </body>
+</html>
